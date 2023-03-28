@@ -1,0 +1,48 @@
+.characters-container {
+  border: 2.5px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 700px;
+}
+.character-card {
+  background-color: #1e1a28;
+  width: fit-content;
+  border-radius: 20px;
+  margin: 10px;
+  width: 25%;
+}
+.image-character {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+.info-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.name-character {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.specie-type {
+  background-color: #31343e;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+}
+.description {
+  padding: 10px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

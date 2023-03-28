@@ -1,0 +1,15 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.email-request {
+  align-items: flex-start;
+}
+.subscribe-container {
+  width: 60%;
+  display: flex;
+}
